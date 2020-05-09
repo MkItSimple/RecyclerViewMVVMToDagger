@@ -30,9 +30,9 @@
                     <ImageView
                         android:id="@+id/imageView"
                         android:background="@drawable/captain_marvel"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:scaleType="matrix"
-                        android:layout_height="195dp"
+                        android:layout_height="wrap_content"
                         />
 
                     <TextView

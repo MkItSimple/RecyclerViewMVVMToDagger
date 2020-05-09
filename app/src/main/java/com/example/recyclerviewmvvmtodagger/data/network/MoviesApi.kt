@@ -10,14 +10,4 @@ interface MoviesApi {
 
     @GET("movies")
     suspend fun getMovies() : Response<List<Movie>>
-
-//    companion object{
-//        operator fun invoke() : MoviesApi {
-//            return Retrofit.Builder()
-//                .addConverterFactory(GsonConverterFactory.create())
-//                .baseUrl("https://us-central1-fir-api-2deff.cloudfunctions.net/app/api/")
-//                .build()
-//                .create(MoviesApi::class.java)
-//        }
-//    }
 }
